@@ -20,6 +20,24 @@ student2 = Student.new({
     "age" => 14
 })
 student2.save()
+student3 = Student.new({
+    "first_name" => "Weyland",
+    "last_name" => "Grunigen",
+    "house" => "Hufflepuff",
+    "age" => 16
+})
+student3.save()
+
+house1 = House.new({'name' => 'Gryffindor'})
+house2 = House.new({'name' => 'Slytherin'})
+house3 = House.new({'name' => 'Ravenclaw'})
+house4 = House.new({'name' => 'Hufflepuff'})
+house1.save()
+house2.save()
+house3.save()
+house4.save()
+
+
 
 binding.pry
 nil
