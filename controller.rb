@@ -17,3 +17,4 @@ post '/students' do
     @student.save()
     erb(:create)
 end
+
